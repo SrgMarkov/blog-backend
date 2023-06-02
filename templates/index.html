@@ -1,6 +1,9 @@
 {% extends 'blog-base.html' %}
-{% load static %}
-{% block content %}
+  {% load static %}
+    {% block title %}
+      <title>Sensive Blog - Home</title>
+    {% endblock %}
+  {% block content %}
     <header class="header_area">
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -223,4 +226,4 @@
       </div>
     </footer>
     <!--================ End Footer Area =================-->
-{% endblock %}
+  {% endblock %}

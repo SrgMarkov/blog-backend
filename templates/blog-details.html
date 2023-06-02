@@ -1,6 +1,9 @@
 {% extends 'blog-base.html' %}
-{% load static %}
-{% block content %}
+  {% load static %}
+    {% block title %}
+      <title>{{ post.title }} - Blog Details</title>
+    {% endblock %}
+  {% block content %}
     <!--================Header Menu Area =================-->
     <header class="header_area">
       <div class="main_menu">
@@ -207,4 +210,4 @@
       </div>
     </footer>
     <!--================ End Footer Area =================-->
-{% endblock %}
+  {% endblock %}
