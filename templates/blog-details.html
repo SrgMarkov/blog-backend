@@ -10,7 +10,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container box_1620">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand logo_h" href={% url 'index' %}><img src="{% static 'img/logo.png' %}" alt=""></a>
+            <a class="navbar-brand logo_h" href={% url 'index' %}><img src="{% static 'img/logo.png' %}" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -34,7 +34,6 @@
       </div>
     </header>
     <!--================Header Menu Area =================-->
-
     <!--================ Hero sm Banner start =================-->
     <section class="mb-30px">
       <div class="container">
@@ -52,8 +51,6 @@
       </div>
     </section>
     <!--================ Hero sm Banner end =================-->
-
-
     <!--================ Start Blog Post Area =================-->
     <section class="blog-post-area section-margin">
       <div class="container">
@@ -88,8 +85,6 @@
                 </div>
               </div>
             </div>
-
-
             <div class="comments-area">
               <h4>{{ post.comments |length }} Comments</h4>
               {% for comment in post.comments %}
@@ -112,8 +107,6 @@
               {%  endfor %}
             </div>
           </div>
-
-
           <!-- Start Blog Post Siddebar -->
           <div class="col-lg-4 sidebar-widgets">
             <div class="widget-wrap">
@@ -127,8 +120,6 @@
                 </div>
                 <button class="bbtns d-block mt-20 w-100">Subcribe</button>
               </div>
-
-
               <div class="single-sidebar-widget post-category-widget">
                 <h4 class="single-sidebar-widget" style="height:200px;">Здесь будет реклама</h4>
               </div>
@@ -139,7 +130,6 @@
       </div>
     </section>
     <!--================ End Blog Post Area =================-->
-
     <!--================ Start Footer Area =================-->
     <footer class="footer-area section-padding">
       <div class="container">
@@ -158,21 +148,15 @@
               <h6>Newsletter</h6>
               <p>Stay update with our latest</p>
               <div class="" id="mc_embed_signup">
-
                 <form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
                   method="get" class="form-inline">
-
                   <div class="d-flex flex-row">
-
                     <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
                       required="" type="email">
-
-
                     <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
                     <div style="position: absolute; left: -5000px;">
                       <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
                     </div>
-
                   </div>
                   <div class="info"></div>
                 </form>
